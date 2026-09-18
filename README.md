@@ -1,43 +1,34 @@
 # IT Quiz Trainer
 
-An interactive quiz trainer for IT apprentices covering the most common exam topics.
-Available in **German and English**.
+A simple quiz tool for practicing common IT exam topics. I wanted something I could open quickly without needing a learning platform or account.
 
-## Features
+It comes as a Python terminal version and a standalone HTML version. Both support German and English.
 
-- **3 practice modes:**
-  - OSI Layers — assign protocols, devices and functions to the right layer
-  - Abbreviations — DNS, DHCP, OSPF, PKI and many more
-  - IT Security — CIA triad, BSI, ports, encryption, IDS/IPS and more
-- **Difficulty levels:** Basics (common exam topics), Advanced (all questions)
-- **Hint system** — wrong twice and you get a hint, wrong three times and the solution is shown
-- **German / English** language selection
+## Topics
 
-## Versions
+- OSI layers
+- common IT abbreviations
+- networking basics
+- IT security
+- ports, protocols and encryption
+- basic and advanced question sets
 
-| File | Requirements |
-|------|--------------|
-| `quiz-trainer.py` | Python 3.6+ (duh) — Linux, macOS, Windows |
-| `quiz-trainer.html` | Any browser, any system — no installation needed |
+Wrong answers get hints before the solution is shown.
 
-Windows doesn't come with Python by default, so if you don't have it installed or don't know how to, just use the HTML version — that's the recommended way on Windows anyway.
+## Run it
 
-## Usage
+Terminal version:
 
-**Terminal:**
 ```bash
 python3 quiz-trainer.py
 ```
 
-**Browser:**
-Just open `quiz-trainer.html` — works on any system, no installation needed.
+Browser version:
 
-## Who is this for?
+Open `quiz-trainer.html` directly in a browser. No installation or web server is required.
 
-- IT apprentices preparing for their exams
-- Anyone getting into networking and IT security basics
-- People who want to test themselves quickly
+The Python version needs Python 3.6 or newer.
 
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).
